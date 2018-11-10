@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,12 +10,13 @@
         android:id="@+id/addNomineeId"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="80dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView18" />
 
@@ -25,11 +26,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addNomineeId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView17" />
@@ -40,11 +40,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addClaimId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView15" />
@@ -55,11 +54,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addAgeId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView13" />
@@ -70,11 +68,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addPaymentPeriodId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView7" />
@@ -85,11 +82,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addPremiumAmtId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView14" />
@@ -100,11 +96,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addLastDateId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView6" />
@@ -115,11 +110,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addSumAssuredId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView16" />
@@ -130,11 +124,10 @@
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addissueId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView11" />
@@ -143,31 +136,20 @@
         android:id="@+id/textView20"
         android:layout_width="113dp"
         android:layout_height="35dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="40dp"
         android:layout_marginStart="8dp"
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView19"
-        android:layout_width="113dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Policy Paper"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="565dp" />
-
-    <TextView
         android:id="@+id/textView18"
         android:layout_width="113dp"
         android:layout_height="35dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="80dp"
         android:layout_marginStart="8dp"
         android:text="Nominee Name"
-        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -252,7 +234,6 @@
         android:layout_width="113dp"
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:text="Policy No"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
@@ -260,19 +241,17 @@
 
     <Button
         android:id="@+id/addPolicyButtonId"
-        android:layout_width="218dp"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="#d81b60"
         android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -284,25 +263,32 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/addPolicyNoId"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView20" />
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="209dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:id="@+id/addClickPictureId"
+        android:layout_width="102dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="52dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/holo_purple"
-        android:text="Click"
+        android:text=" Click Picture"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView19"
-        tools:layout_editor_absoluteY="565dp" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/addPolicyButtonId"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView23"
@@ -320,6 +306,70 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="114dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Company"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.181"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/addCompanyId"
+        android:layout_width="124dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/addPolicyNoId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="115dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Premium Due"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/addPremiumDue"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addNomineeId"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

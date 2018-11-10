@@ -16,7 +16,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword|numberPassword"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -54,11 +54,11 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordId"
-        app:layout_constraintVertical_bias="0.224" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <EditText
         android:id="@+id/usernameId"
-        android:layout_width="367dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -86,9 +86,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginPageButtonId"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.266" />
 
     <Button
         android:id="@+id/facebookButtonId"
@@ -105,7 +106,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/displayCompanyId"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <Button
         android:id="@+id/facebookButtonId2"
@@ -119,8 +120,25 @@
         android:text="@string/loginwithfacebook"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/displayCompanyId"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/forgotPassId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffb744"
+        android:text="Forgot Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
 
 </android.support.constraint.ConstraintLayout>

@@ -6,9 +6,15 @@
         android:id="@+id/searchIconId"
         android:icon="@android:drawable/ic_menu_search"
         android:title="Search"
-        app:showAsAction="always">
+        app:showAsAction="always"
+        >
 
     </item>
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
 
     <item
         android:title="Add Policy"
@@ -21,7 +27,7 @@
     <item
         android:title="Logout"
         android:id="@+id/signOutIconId"
-        android:icon="@android:drawable/ic_menu_edit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
         app:showAsAction="always">
 
     </item>

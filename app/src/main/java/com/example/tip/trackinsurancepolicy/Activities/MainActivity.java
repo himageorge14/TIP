@@ -31,15 +31,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+         /*
+            The login button is attached to an event listener
+            the listener listens for a CLICK event,
+            to provide the action to be performed after the click event, we need to implement(override) the OnClick method of View interface
+            
+        */
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                //this will show up only in terminal of android studio
+                System.out.println("Clicked on Login");
+                
                 Intent intent1 =new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(intent1);
             }
         });
-
     }
 }
